@@ -1,18 +1,6 @@
 'use strict';
 
 
-// console.log(document.querySelector('.message').textContent);
-// document.querySelector('.message').textContent = "😉 Hi smily!";
-
-// document.querySelector('.number').textContent = 23;
-// document.querySelector('.score').textContent = 12;
-// console.log(document.querySelector('.number').textContent);
-// document.querySelector('.guess').value = 15;
-
-
-// document.querySelector('.check').addEventListener('click', function () {
-//     console.log(document.querySelector('.guess').value);
-// }) 
 let score = 20;
 let highscore = 0;
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
